@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>Ocean Web</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="index.html">
+            <img src="images/Logo.png" width="55" alt="Ocean web logo">
+        </a>
+        <a href="index.html" style="text-decoration: none;">
+           <h1>OCEAN WEB</h1>
+        </a>
+        <nav>
+            <ul>
+                <li> <a href="#home"> Home </a> </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="filler"  id="home"></div>
+    <div class="home">
+        <h1> Home</h1>
+        <p>
+            Welcome to Ocean Web. Our <a href="#gallery">GALLERY</a> contain beautiful images.
+            You can freely download our images without any restrictions.If you have any queries, feel
+            free to <a href="#contact"> contact</a>.
+        </p>
+    </div>
+    <div class="filler" id="about"><br></div>
+
+    <div class="about">
+        <h1>
+            About
+        </h1>
+        <h2 class="size-control" id="color-control">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Vitae animi nesciunt in voluptatum adipisci corrupti omnis praesentium 
+            cum distinctio magnam, facere repudiandae sapiente cumque recusandae 
+            provident reiciendis! Asperiores, culpa optio!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eius voluptatem 
+            quo itaque in incidunt, magni ducimus sequi, similique vitae facilis asperiores ipsa 
+            animi veniam suscipit aspernatur quis error ut.
+        </h2>
+    </div>
+    <div class="filler" id="gallery"></div>
+
+    <h1 style="font-family: 'Source Sans Pro', sans-serif; text-align: center;">
+        Gallery
+    </h1><br>
+    <div id="gallery" class="gallery">
+        <div>
+            <img src="images/lake.jpg" alt="Lake Image" class="image">
+            <h3>Lake</h3>
+        </div>
+        <div>
+            <img src="images/leopard.jpg" alt="Leopard Image" class="image">
+            <h3>Leopard</h3>
+        </div>
+        <div>
+            <img src="images/sky.jpg" alt="Sky Image" class="image">
+            <h3>Sky</h3>
+        </div>
+        <div>
+            <img src="images/sunrise.jpg" alt="Sunrise Image" class="image">
+            <h3>Sunrise</h3>
+        </div>
+        <div>
+            <img src="images/waterfall.jpg" alt="Waterfall Image" class="image">
+            <h3>Waterfall</h3>
+        </div>
+        <div>
+            <img src="images/winter-sky.jpg" alt="Winter sky Image" class="image">
+            <h3>Winter Sky</h3>
+        </div>
+        <div>
+            <img src="images/beautiful-wallpaper_279-640x360.jpg" alt="Night Image" class="image">
+            <h3>Moon</h3>
+        </div>
+        <div>
+            <img src="images/beautiful-wallpaper-download-18-640x360.jpg" alt="Sunrise on Hill Image" class="image">
+            <h3> Sunrise on Hill </h3>
+        </div>
+    </div>
+
+    <div class="filler" id="contact"></div>
+    <h1 style="font-family: 'Sora', sans-serif;">
+        Contact with Us
+    </h1>
+    <div class="contact">
+        <form action="action.html" method="GET" class=frm>
+            Name<br>
+            <input type="text" name="Name" placeholder="Name" class="frm-input" required>
+            <br>
+            E-mail<br>
+            <input type="email" name="mail" placeholder="Email" class="frm-input" required>
+            <br>
+            Comment<br>
+            <textarea name="comment" placeholder="Comment" class="frm-input" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit" name="submit" value="Submit" class="btn">
+        </form>
+    </div>
+    <br><br><br>
+    <footer class="foot">
+        <h3>We hope you like Ocean Web.</h3>
+    </footer>
+</body>
+</html>
